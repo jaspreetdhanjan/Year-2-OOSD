@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\net">
+      <UniqueIdentifier>{3640ce58-8f8f-4ec0-b34b-8b8b73c3c715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net">
+      <UniqueIdentifier>{5ab818c7-c04b-462e-a9d8-d7893e123394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sensor">
+      <UniqueIdentifier>{00cb3b8f-abec-4def-a642-e74275f8840e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sensor\data">
+      <UniqueIdentifier>{8f61ba6e-fe3d-44ae-a3d0-73fecfcce85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sensor">
+      <UniqueIdentifier>{2fa86fdd-5467-4d81-a6b4-b950f5108aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{0c3254af-c5c9-412a-9a88-c7560d8b3aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{6cb2e947-b0fe-40c2-ab9f-5092a9299355}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPConnection.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor.h">
+      <Filter>Header Files\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Header Files\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSensor.h">
+      <Filter>Header Files\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="GPSData.h">
+      <Filter>Header Files\sensor\data</Filter>
+    </ClInclude>
+    <ClInclude Include="GPSSensor.h">
+      <Filter>Header Files\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="OrientationData.h">
+      <Filter>Header Files\sensor\data</Filter>
+    </ClInclude>
+    <ClInclude Include="OrientationSensor.h">
+      <Filter>Header Files\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedSensor.h">
+      <Filter>Header Files\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPConnection.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Source Files\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineSensor.cpp">
+      <Filter>Source Files\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="GPSSensor.cpp">
+      <Filter>Source Files\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="OrientationSensor.cpp">
+      <Filter>Source Files\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedSensor.cpp">
+      <Filter>Source Files\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

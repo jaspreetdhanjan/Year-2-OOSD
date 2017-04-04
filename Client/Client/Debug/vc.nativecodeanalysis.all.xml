@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>k:\university work\year 2\oo development\assignment\udp\client\client\</FILEPATH>
+      <FILENAME>speedsensor.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>Non-integer passed as _Param_(2) when an integer is required in call to 'printf' Actual type: 'double':  if a pointer value is being passed, %p should be used.</DESCRIPTION>
+    <FUNCTION>Sensors::SpeedSensor::update</FUNCTION>
+    <DECORATED>?update@SpeedSensor@Sensors@@UAEXXZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

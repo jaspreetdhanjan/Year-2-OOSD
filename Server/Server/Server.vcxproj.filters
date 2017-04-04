@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\net">
+      <UniqueIdentifier>{f969b855-d0e6-42a4-b54f-6c6964e6fae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\net">
+      <UniqueIdentifier>{2b688abc-7073-4fcd-8ac3-33e14147aeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer">
+      <UniqueIdentifier>{c47e079f-96ef-4cb1-b2e3-b7d7574a9984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer">
+      <UniqueIdentifier>{cf2dd9a8-cbd7-431e-bb1f-43ce2815c3a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\exception">
+      <UniqueIdentifier>{ec726f1b-636a-4fd1-ab4c-c18354f70454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sound">
+      <UniqueIdentifier>{63147a23-ae5b-4be2-9e39-4735741aeb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sound">
+      <UniqueIdentifier>{4c479a48-041b-47c9-9e83-2d370fd61584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\login">
+      <UniqueIdentifier>{e0e4fb09-d894-4c05-827d-142c6edefc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\login">
+      <UniqueIdentifier>{c09ed5ca-8cbb-4259-a408-1e891646eb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{f9cdc05d-3696-40ba-a1d0-fd041e4a76e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{9f6b35d6-c011-414e-96cf-7ccb1e4a8642}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="output.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="login.json.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPConnection.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientData.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter.h">
+      <Filter>Header Files\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Alarm.h">
+      <Filter>Header Files\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Header Files\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorUtil.h">
+      <Filter>Header Files\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginAuthenticator.h">
+      <Filter>Header Files\login</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPConnection.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter.cpp">
+      <Filter>Source Files\observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Alarm.cpp">
+      <Filter>Source Files\observer</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginAuthenticator.cpp">
+      <Filter>Source Files\login</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
